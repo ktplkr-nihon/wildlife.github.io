@@ -1,0 +1,37 @@
+body{
+margin: 0px;
+	background-image: url(https://images.unsplash.com/photo-1511207538754-e8555f2bc187?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80);
+}
+.navbar-brand{
+	font-size: xx-large;
+	color: white;
+	border-bottom: 5px solid orange;
+	border-right: 5px solid orange;
+	line-height: 15px;
+	width: 95px;
+	font-family: 'Bebas Neue', cursive;
+	text-align: left;
+	margin-top: 10px;
+	cursor: default;
+}
+
+img{
+	width: 500px;
+	height: 500px;
+	margin: 20px;
+	border: 1px solid #102415;
+	transition: 2s;
+}
+img:hover{
+	transform: scale(1.1);
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+.img1{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}

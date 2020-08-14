@@ -1,0 +1,43 @@
+body , html{
+ height: 100%;
+ width: 100%; 
+  background: url(https://images.unsplash.com/photo-1597106647639-0a6a0c52beaf?ixlib=rb-1.2.1&ixid=eyJhc) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{ 
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 5em;
+	transition: 0.1s;
+}
+h1:hover{
+
+	transform: scale(1.1);
+	cursor: default;
+}
+hr{
+	border-color: white;
+	border-width: 5px;
+	max-width: 100px;
+}
+
+
+.btn{
+	padding: 15px 10px;
+	border-radius: 10px;
+	transition: 0.2s;
+
+}
+.btn-1:hover{
+transform: scale(1.1);
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+}
